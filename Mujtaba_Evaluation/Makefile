@@ -3,7 +3,7 @@
 # Tools
 IVER = iverilog -g2012 -o
 VVP = vvp
-PROG = noc_router 
+PROG = noc_router
 
 # Default target
 all: $(PROG)_tb.vvp
